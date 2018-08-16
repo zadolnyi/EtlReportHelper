@@ -1,10 +1,10 @@
-package com.oboz.reporthelper.service;
+package com.zadolnyi.reporthelper.service;
 
-import com.oboz.reporthelper.AppException;
-import com.oboz.reporthelper.model.Reports;
-import com.oboz.reporthelper.model.ReportLine;
-import com.oboz.reporthelper.repository.JdbcRepository;
-import com.oboz.reporthelper.repository.ReportsRepository;
+import com.zadolnyi.reporthelper.AppException;
+import com.zadolnyi.reporthelper.model.Reports;
+import com.zadolnyi.reporthelper.model.ReportLine;
+import com.zadolnyi.reporthelper.repository.JdbcRepository;
+import com.zadolnyi.reporthelper.repository.ReportsRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Sort;

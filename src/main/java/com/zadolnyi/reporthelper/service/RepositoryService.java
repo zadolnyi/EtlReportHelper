@@ -1,8 +1,8 @@
-package com.oboz.reporthelper.service;
+package com.zadolnyi.reporthelper.service;
 
-import com.oboz.reporthelper.repository.Report1Repository;
-import com.oboz.reporthelper.repository.Report2Repository;
-import com.oboz.reporthelper.repository.Report3Repository;
+import com.zadolnyi.reporthelper.repository.Report1Repository;
+import com.zadolnyi.reporthelper.repository.Report2Repository;
+import com.zadolnyi.reporthelper.repository.Report3Repository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Service;

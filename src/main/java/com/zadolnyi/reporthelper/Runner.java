@@ -1,6 +1,6 @@
-package com.oboz.reporthelper;
+package com.zadolnyi.reporthelper;
 
-import com.oboz.reporthelper.service.ReporterService;
+import com.zadolnyi.reporthelper.service.ReporterService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;

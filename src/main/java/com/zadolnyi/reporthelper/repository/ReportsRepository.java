@@ -1,6 +1,6 @@
-package com.oboz.reporthelper.repository;
+package com.zadolnyi.reporthelper.repository;
 
-import com.oboz.reporthelper.model.Reports;
+import com.zadolnyi.reporthelper.model.Reports;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

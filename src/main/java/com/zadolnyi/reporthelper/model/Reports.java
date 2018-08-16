@@ -1,4 +1,4 @@
-package com.oboz.reporthelper.model;
+package com.zadolnyi.reporthelper.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

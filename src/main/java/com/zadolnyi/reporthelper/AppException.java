@@ -1,4 +1,4 @@
-package com.oboz.reporthelper;
+package com.zadolnyi.reporthelper;
 
 
 public class AppException extends Exception {

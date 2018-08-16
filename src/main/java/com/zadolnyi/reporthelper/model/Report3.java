@@ -1,4 +1,4 @@
-package com.oboz.reporthelper.model;
+package com.zadolnyi.reporthelper.model;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -8,8 +8,6 @@ import javax.persistence.*;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-
-import static javax.persistence.GenerationType.IDENTITY;
 
 @Data
 @NoArgsConstructor

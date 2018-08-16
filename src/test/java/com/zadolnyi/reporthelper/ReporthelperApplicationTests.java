@@ -1,4 +1,4 @@
-package com.oboz.reporthelper;
+package com.zadolnyi.reporthelper;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

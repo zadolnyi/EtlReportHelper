@@ -1,4 +1,4 @@
-package com.oboz.reporthelper;
+package com.zadolnyi.reporthelper;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceProperties;
@@ -18,7 +18,7 @@ import javax.sql.DataSource;
 @EnableJpaRepositories(
         entityManagerFactoryRef = "targetEntityManager",
         transactionManagerRef = "targetTransactionManager",
-        basePackages = {"com.oboz.reporthelper.repository"}
+        basePackages = {"com.zadolnyi.reporthelper.repository"}
 )
 public class JPAConfig {
 

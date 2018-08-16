@@ -1,4 +1,4 @@
-package com.oboz.reporthelper;
+package com.zadolnyi.reporthelper;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

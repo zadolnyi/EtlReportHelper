@@ -1,8 +1,8 @@
-package com.oboz.reporthelper.repository;
+package com.zadolnyi.reporthelper.repository;
 
-import com.oboz.reporthelper.model.ReportFactory;
-import com.oboz.reporthelper.model.ReportLine;
-import com.oboz.reporthelper.model.Reports;
+import com.zadolnyi.reporthelper.model.ReportFactory;
+import com.zadolnyi.reporthelper.model.ReportLine;
+import com.zadolnyi.reporthelper.model.Reports;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.jdbc.core.JdbcTemplate;
