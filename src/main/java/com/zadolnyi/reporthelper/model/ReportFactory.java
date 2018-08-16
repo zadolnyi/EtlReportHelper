@@ -5,7 +5,7 @@ public class ReportFactory {
     static public ReportLine getReport(Reports reportsItem) {
         ReportLine report = null;
         try {
-            report = (ReportLine)Class.forName("com.oboz.reporthelper.model."+reportsItem.getClassName()).newInstance();
+            report = (ReportLine)Class.forName("com.zadolnyi.reporthelper.model."+reportsItem.getClassName()).newInstance();
         } catch (InstantiationException e) {
             e.printStackTrace();
         } catch (IllegalAccessException e) {

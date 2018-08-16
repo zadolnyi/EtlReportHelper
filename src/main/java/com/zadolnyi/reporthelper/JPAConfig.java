@@ -27,7 +27,7 @@ public class JPAConfig {
             EntityManagerFactoryBuilder builder, @Qualifier("targetDataSource") DataSource targetDataSource){
         return builder
                 .dataSource(targetDataSource)
-                .packages("com.oboz.reporthelper.model")
+                .packages("com.zadolnyi.reporthelper.model")
                 .persistenceUnit("report")
                 .build();
     }
