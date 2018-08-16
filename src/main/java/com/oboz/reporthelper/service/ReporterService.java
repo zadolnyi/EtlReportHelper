@@ -43,6 +43,7 @@ public class ReporterService {
         reports.forEach(theReport -> {
             Runnable task = () -> {
                 try {
+                    System.out.println("theReport="+theReport);
                     createReport(theReport);
                 } catch (Exception e) {
                     e.printStackTrace();

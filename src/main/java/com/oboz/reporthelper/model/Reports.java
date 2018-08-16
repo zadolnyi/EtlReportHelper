@@ -14,7 +14,7 @@ import java.sql.SQLException;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Table(name="reports", schema="public")
+@Table(name="reports", schema="target_schema")
 public class Reports {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
