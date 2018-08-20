@@ -48,12 +48,6 @@ public class JdbcConfig {
         return targetDataSourceProperties().initializeDataSourceBuilder().build();
     }
 
-//    @Bean (name = "targetDB")
-//    @ConfigurationProperties("target.datasource")
-//    public HikariDataSource targetDB(DataSourceProperties properties) {
-//        return properties.initializeDataSourceBuilder().type(HikariDataSource.class).build();
-//    }
-
     @Bean(name = "targetJdbcTemplate")
     public JdbcTemplate targetJdbcTemplate(@Qualifier("targetDB") DataSource ds) {
         return new JdbcTemplate(ds);
