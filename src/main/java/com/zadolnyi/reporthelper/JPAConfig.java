@@ -32,7 +32,7 @@ public class JPAConfig {
                 .build();
     }
 
-//    @Bean(name = "entityManagerFactory")
+//    @Bean(name = "entityManagerFactory") (+ изменение в VitBranch2)
 //    @Primary
 //    public LocalContainerEntityManagerFactoryBean entityManagerFactoryBean() {
 //        LocalContainerEntityManagerFactoryBean entityManagerFactoryBean = new LocalContainerEntityManagerFactoryBean();
