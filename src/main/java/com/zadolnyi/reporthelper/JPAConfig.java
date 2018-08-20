@@ -32,22 +32,6 @@ public class JPAConfig {
                 .build();
     }
 
-//    @Bean(name = "entityManagerFactory") (+ изменение в VitBranch2)(+ новые изменения)(+ изменение в master)(+ последнее изменение)(+ изменение в master)(+ последнее изменение в master)
-//    @Primary
-//    public LocalContainerEntityManagerFactoryBean entityManagerFactoryBean() {
-//        LocalContainerEntityManagerFactoryBean entityManagerFactoryBean = new LocalContainerEntityManagerFactoryBean();
-//        entityManagerFactoryBean.setJpaVendorAdapter(vendorAdaptor());
-//        entityManagerFactoryBean.setDataSource(dataSource());
-//        entityManagerFactoryBean.setPersistenceProviderClass(HibernatePersistenceProvider.class);
-//        entityManagerFactoryBean.setPersistenceUnitManager(persistenceUnitManager());
-//        entityManagerFactoryBean.setPersistenceUnitName("orcl");
-//        entityManagerFactoryBean.setPackagesToScan(ENTITYMANAGER_PACKAGES_TO_SCAN);
-//        entityManagerFactoryBean.setJpaProperties(jpaHibernateProperties());
-//
-//        return entityManagerFactoryBean;
-//    }
-
-
     @Bean("targetDataSourceProperties")
     @Primary
     @ConfigurationProperties("target.datasource")
