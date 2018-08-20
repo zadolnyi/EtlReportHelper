@@ -25,12 +25,6 @@ public class JdbcConfig {
         return sourceDataSourceProperties().initializeDataSourceBuilder().build();
     }
 
-//    @Bean (name = "sourceDB")
-//    @ConfigurationProperties("source.datasource")
-//    public HikariDataSource sourceDB(DataSourceProperties properties) {
-//        return properties.initializeDataSourceBuilder().type(HikariDataSource.class).build();
-//    }
-
     @Bean(name = "sourceJdbcTemplate")
     public JdbcTemplate sourceJdbcTemplate(@Qualifier("sourceDB") DataSource ds) {
         return new JdbcTemplate(ds);
